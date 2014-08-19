@@ -53,7 +53,7 @@ JSON
 ###### Parameters:
 
 Prama | Type | Range | Nullable | Desc
-:------------ | :-------------: | :------------: | :------------: 
+:------------ | :-------------: | :------------: | :------------: | ------------
 email | String  | - | `NO` |
 password | String  | | `NO` | 
 devicetoken | String | | YES | 
@@ -80,7 +80,7 @@ JSON
 ###### Parameters:
 
 Prama | Type | Range | Nullable | Desc
-:------------ | :-------------: | :------------: | :------------: 
+:------------ | :-------------: | :------------: | :------------: | ------------
 email | String  | - | `NO` |
 
 ###### Response:
@@ -101,7 +101,7 @@ JSON
 ###### Parameters:
 
 Prama | Type | Range | Nullable | Desc
-:------------ | :-------------: | :------------: | :------------: 
+:------------ | :-------------: | :------------: | :------------: | ------------
 token | String  | - | `NO` |
 email | String  | - | `NO` |
 
@@ -117,7 +117,7 @@ User Profile
 ### User Profile Object
 ###### Object Define:
 Prama | Type | Range | Nullable | Desc
-:------------ | :-------------: | :------------: | :------------: 
+:------------ | :-------------: | :------------: | :------------: | ------------
 email | String  | - | `NO` |
 createDate | DateTime  | - | `NO` |
 name | String  | - | `NO` |
@@ -143,7 +143,7 @@ JSON
 ###### Parameters:
 
 Prama | Type | Range | Nullable | Desc
-:------------ | :-------------: | :------------: | :------------: 
+:------------ | :-------------: | :------------: | :------------: | ------------
 token | String  | - | `NO` |
 email | String  | - | `NO` |
 
@@ -165,7 +165,7 @@ JSON
 ###### Parameters:
 
 Prama | Type | Range | Nullable | Desc
-:------------ | :-------------: | :------------: | :------------: 
+:------------ | :-------------: | :------------: | :------------: | ------------
 token | String  | - | `NO` |
 email | String  | - | `NO` |
 
@@ -187,7 +187,7 @@ JSON
 ###### Parameters:
 
 Prama | Type | Range | Nullable | Desc
-:------------ | :-------------: | :------------: | :------------: 
+:------------ | :-------------: | :------------: | :------------: | ------------
 token | String  | - | `NO` |
 devicetoken | String  | - | `NO` |
 
@@ -213,7 +213,7 @@ Package
 ### Package Object
 ###### Object Define:
 Prama | Type | Range | Nullable | Desc
-:------------ | :-------------: | :------------: | :------------: 
+:------------ | :-------------: | :------------: | :------------: | ------------
 shopId | String  | - | `NO` |
 packageId | String  | - | `NO` |
 packageName | String  | - | `NO` |
@@ -242,7 +242,7 @@ JSON
 ###### Parameters:
 
 Prama | Type | Range | Nullable | Desc
-:------------ | :-------------: | :------------: | :------------: 
+:------------ | :-------------: | :------------: | :------------: | ------------
 category | String  | - | `YES` |
 
 ###### Response:
@@ -262,7 +262,7 @@ Order
 ### Order Object
 ###### Order Object Define:
 Prama | Type | Range | Nullable | Desc
-:------------ | :-------------: | :------------: | :------------: 
+:------------ | :-------------: | :------------: | :------------: | ------------
 orderId | String  | - | `NO` |
 shopId | String  | - | `NO` |
 userId | String  | - | `NO` |
@@ -275,7 +275,7 @@ ordertype | uint  | - | YES |
 
 ###### OrderProduct Object Define:
 Prama | Type | Range | Nullable | Desc
-:------------ | :-------------: | :------------: | :------------: 
+:------------ | :-------------: | :------------: | :------------: | ------------
 orderId | String  | - | `NO` |
 createDate | DateTime  | - | `NO` |
 status | unit  | - | `NO` |
@@ -304,7 +304,7 @@ JSON
 ###### Parameters:
 
 Prama | Type | Range | Nullable | Desc
-:------------ | :-------------: | :------------: | :------------: 
+:------------ | :-------------: | :------------: | :------------: | ------------
 token | String  | - | `NO` |
 userId | String  | - | `NO` |
 startDate | String  | - | YES | eg:2014-08-18
@@ -331,7 +331,7 @@ JSON
 ###### Parameters:
 
 Prama | Type | Range | Nullable | Desc
-:------------ | :-------------: | :------------: | :------------: 
+:------------ | :-------------: | :------------: | :------------: | ------------
 token | String  | - | `NO` |
 userId | String  | - | `NO` |
 orderId | String  | - | `NO` | 
@@ -355,7 +355,7 @@ JSON
 ###### Parameters:
 
 Prama | Type | Range | Nullable | Desc
-:------------ | :-------------: | :------------: | :------------: 
+:------------ | :-------------: | :------------: | :------------: | ------------
 token | String  | - | `NO` |
 userId | String  | - | `NO` |
 orderId | String  | - | `NO` | 
@@ -379,7 +379,7 @@ JSON
 ###### Parameters:
 
 Prama | Type | Range | Nullable | Desc
-:------------ | :-------------: | :------------: | :------------: 
+:------------ | :-------------: | :------------: | :------------: | ------------
 token | String  | - | `NO` |
 userId | String  | - | `NO` |
 orderId | String  | - | `NO` | 
@@ -405,7 +405,7 @@ JSON
 ###### Parameters:
 
 Prama | Type | Range | Nullable | Desc
-:------------ | :-------------: | :------------: | :------------: 
+:------------ | :-------------: | :------------: | :------------: | ------------
 token | String  | - | `NO` |
 userId | String  | - | `NO` |
 orderId | String  | - | `NO` | 
@@ -429,7 +429,7 @@ JSON
 ###### Parameters:
 
 Prama | Type | Range | Nullable | Desc
-:------------ | :-------------: | :------------: | :------------: 
+:------------ | :-------------: | :------------: | :------------: | ------------
 token | String  | - | `NO` |
 userId | String  | - | `NO` |
 orderId | String  | - | `NO` | 
@@ -454,7 +454,7 @@ JSON
 ###### Parameters:
 
 Prama | Type | Range | Nullable | Desc
-:------------ | :-------------: | :------------: | :------------: 
+:------------ | :-------------: | :------------: | :------------: | ------------
 token | String  | - | `NO` |
 email | String  | - | `NO` |
 localfilename | String  | - | `NO` |
