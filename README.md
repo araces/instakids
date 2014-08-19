@@ -13,9 +13,13 @@ User Account & Access
 
 ### Get a Access Token
 ```
-Before invoke any authorized API function,we must have a access token using Signin Method.
+Before invoke any authorize require API function,we must have a access token using Signin Method.
 ```
+authorize SOP:
 
+* sign in.
+* sign in function response the access token.
+* client keep the access token for authorize require api funcitons.
 
 ### Signin
 
