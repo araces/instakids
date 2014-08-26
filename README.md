@@ -446,6 +446,8 @@ orderId | String  | - | `NO` |
 
 UploadPhoto
 ------------------
+
+
 ###### URL:
 <http://xxx.com/api/v1/account/uploadPhoto>
 
@@ -469,5 +471,104 @@ orderid | String  | - | `NO` |
 ｛“success”:true,"errmsg",null,"data":{"url":"http://xxx.com/abc.jpg","contentlength":2000}} 
 
 
+
+PhotoBook
+------------------
+
+
+### PhotoBook Object
+
+###### PhotoBook Object Define:
+Prama | Type | Range | Nullable | Desc
+:------------ | :-------------: | :------------: | :------------: | ------------
+photoBookId | String  | - | `NO` |
+shopId | String  | - | `NO` |
+authorId | String  | - | `NO` |
+createDate | DateTime  | - | `NO` |
+status | uint  | - | `NO` |
+name | String | - | `NO` |
+packageId | String  | - | `NO` |
+minPages | uint  | - | `NO` |
+maxPages | uint  | - | `NO` |
+size | String | - | `NO` |
+category | String | - | `NO` |
+style | String | - | `NO` |
+coverImageUrl | String | - | `NO` |
+previewVideoUrl | String | - | `NO` |
+desc | String | - | `NO` |
+
+###### PageStyle Object Define:
+Prama | Type | Range | Nullable | Desc
+:------------ | :-------------: | :------------: | :------------: | ------------
+pageStyleId | String  | - | `NO` |
+createDate | DateTime  | - | `NO` |
+status | uint  | - | `NO` |
+photoBookId | String | - | `NO` |
+photoCount | uint  | - | `NO` |
+imageUrl | string  | - | `NO` |
+backendImageUrl | string  | - | `NO` |
+width | uint  | - | `NO` |
+height | uint  | - | `NO` |
+
+
+###### Object raw json:
+{"name":"ward","email":"abc@domain.com","createdate","2014-08-08","rank":2,"credit":200,"avator":"http://xxx.com/xx.jpg"}
+
+------------------
+
+
+
+UserProject
+------------------
+
+
+### UserProject Object
+
+###### PhotoBook Object Define:
+Prama | Type | Range | Nullable | Desc
+:------------ | :-------------: | :------------: | :------------: | ------------
+userProjectId | String  | - | `NO` |
+photoBookId | String  | - | `NO` |
+shopId | String  | - | `NO` |
+userId | String  | - | `NO` |
+createDate | DateTime  | - | `NO` |
+lastUpdateDate | DateTime  | - | `NO` |
+status | uint  | - | `NO` |
+name | String | - | `NO` |
+packageId | String  | - | `NO` |
+photoBookId | String  | - | `NO` |
+photoCount | uint  | - | `NO` |
+
+
+###### Page Object Define:
+Prama | Type | Range | Nullable | Desc
+:------------ | :-------------: | :------------: | :------------: | ------------
+pageStyleId | String  | - | `NO` |
+pageId | String  | - | `NO` |
+createDate | DateTime  | - | `NO` |
+status | uint  | - | `NO` |
+photoCountRequire | uint  | - | `NO` |
+photoCount | uint  | - | `NO` |
+
+
+###### PagePhoto Object Define:
+Prama | Type | Range | Nullable | Desc
+:------------ | :-------------: | :------------: | :------------: | ------------
+photoId | String  | - | `NO` |
+userId  | String  | - | `NO` |
+userProjectId  | String  | - | `NO` |
+pageId | String  | - | `NO` |
+createDate | DateTime  | - | `NO` |
+status | uint  | - | `NO` |
+top | uint  | - | `NO` |
+left | uint  | - | `NO` |
+zoom | single  | - | `NO` |
+rotationAngle  | single  | - | `NO` |
+
+
+###### Object raw json:
+{"name":"ward","email":"abc@domain.com","createdate","2014-08-08","rank":2,"credit":200,"avator":"http://xxx.com/xx.jpg"}
+
+------------------
 
 
