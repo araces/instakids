@@ -60,6 +60,7 @@ Prama | Type | Range | Nullable | Desc
 :------------ | :-------------: | :------------: | :------------: | ------------
 email | String  | - | `NO` |
 password | String  | | `NO` | 
+deviceType | Int  | | YES |
 devicetoken | String | | YES | 
 
 ###### Response:
