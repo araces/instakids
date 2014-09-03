@@ -172,6 +172,7 @@ JSON
 Prama | Type | Range | Nullable | Desc
 :------------ | :-------------: | :------------: | :------------: | ------------
 token | String  | - | `NO` |
+name | String  | - | YES  |
 email | String  | - | `NO` |
 
 ###### Response:
