@@ -61,6 +61,7 @@ Prama | Type | Range | Nullable | Desc
 email | String  | - | `NO` |
 password | String  | | `NO` | 
 devicetoken | String | | YES | 
+deviceType | int | | YES |
 
 ###### Response:
 ｛“success”:true,"errmsg",null,"data":{“token”:“abcd1234”}} 
